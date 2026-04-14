@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
+    <style>
+        button{
+            margin-left: 20px;
+            margin-top: 20px;
+            background-color: rgb(12, 147, 201);
+            border: 2px solid black;
+        border-radius: 15px;
+        }
+      
+    </style>
 </head>
+
 <body>
-    
-</body>
+    <div class="container">
+   <h1>ONLINE REGISTRATION FORM</h1>
+   <h2>
+    Name
+   </h2>
+   <input type="text" placeholder="First">     <input type="text" placeholder="Last" >
+   <h2>Email</h2>
+   <input type="text" placeholder="Enter email ">
+   <h2>Phone Number</h2>
+   <input type="number" placeholder="Mobile number"> 
+<h2>Gender</h2>
+<input type="radio" value="male" id="male" name="Gender">
+<label for="male" >Male</label>
+<input type="radio" value="Female" id="Female" name="Gender">
+<label for="Female">Female</label>
+<br>
+<button>Submit</button>
+</div>
 </html>
